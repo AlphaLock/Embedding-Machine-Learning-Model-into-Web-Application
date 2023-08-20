@@ -4,7 +4,7 @@ This FastAPI project provides an API for predicting sepsis based on a set of pat
 
 Exploratory Data Analysis (EDA)
 Dataset
-The sepsis prediction model was built using a dataset downloaded from kaggle containing patient information. The dataset columns include:
+The sepsis prediction model was built using a dataset downloaded from Kaggle containing patient information. The dataset columns include:
 
 PRG: Patient's PRG (Placeholder for a feature)
 PL: Patient's PL (Placeholder for a feature)
@@ -23,10 +23,10 @@ Scaling numerical features
 Encoding categorical features (if applicable)
 Machine Learning Model
 Model Building
-A logistic regression model was chosen as the machine learning algorithm for sepsis prediction due to its interpretability and good performance on the given dataset. The model was trained on the preprocessed dataset.
+A logistic regression model was chosen as the machine learning algorithm after evaluating all five models, namely: Logistic Regression, Gradient Boost Machine, for sepsis prediction due to its interpretability and good performance on the given dataset. The model was trained on the preprocessed dataset.
 
 Model Evaluation
-The model's performance was evaluated using metrics such as accuracy, precision, recall, and F1-score. Cross-validation techniques were employed to ensure robustness.
+The model's performance was evaluated using metrics such as accuracy, precision, recall, and F1-score. 
 
 Model Deployment
 The trained logistic regression model was saved as logreg_model.joblib and is used by the FastAPI API for making sepsis predictions.
@@ -44,7 +44,7 @@ Clone this repository to your local machine:
 
 bash
 Copy code
-git clone https://github.com/your-username/sepsis-prediction-api.git
+git clone https://github.com/AlphaLock/Embedding-Machine-Learning-Model-into-Web-Application.git
 Navigate to the project directory:
 
 bash
@@ -83,10 +83,11 @@ Deployment
 To deploy this FastAPI project in a production environment, you can use platforms like Docker and deploy it on cloud services or on-premises servers.
 
 Contributors
-Your Name
+Your Name: Richmond Abake, Faith Berida, Elvis Darko
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
 FastAPI Documentation
 Uvicorn Documentation
+Azubi Africa Data Analytics Professionals Cohort 2 Trainers and Machine Learning Engineers
