@@ -20,7 +20,7 @@ Before training the machine learning model, data preprocessing steps were perfor
 
 Handling missing values
 Scaling numerical features
-Encoding categorical features (if applicable)
+Encoding categorical features
 Machine Learning Model
 Model Building
 A logistic regression model was chosen as the machine learning algorithm after evaluating all five models, namely: Logistic Regression, Gradient Boost Machine, for sepsis prediction due to its interpretability and good performance on the given dataset. The model was trained on the preprocessed dataset.
