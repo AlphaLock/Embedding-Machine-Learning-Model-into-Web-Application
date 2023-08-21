@@ -21,7 +21,7 @@ def load_model():
 
     imputer_filepath = os.path.join(destination, "numerical_imputer.joblib")
     scaler_filepath = os.path.join(destination, "scaler.joblib")
-    model_filepath = os.path.join(destination, "lr_model.joblib")
+    model_filepath = os.path.join(destination, "logreg.joblib")
 
     num_imputer = joblib.load(imputer_filepath)
     scaler = joblib.load(scaler_filepath)
